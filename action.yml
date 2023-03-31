@@ -9,5 +9,5 @@ outputs:
   time: # id of output
     description: 'The time we greeted you'
 runs:
-  using: 'node16' # use 'docker' to use container actions
+  using: 'node18' # use 'docker' to use container actions
   main: 'index.js'
